@@ -22,3 +22,13 @@ body {
 section {
   padding-top: 5rem;
 }
+
+#about .row .info {
+  border: 1px solid grey;
+  border-radius: 20px;
+  box-shadow: 10px 10px rgba(88, 88, 88, 0.1);
+  padding: 5px;
+}
+#about .row .info span {
+  font-weight: bold;
+}
