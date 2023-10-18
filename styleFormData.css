@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+body {
+  background: linear-gradient(to bottom right, #f7cac9, #c5b9cd, #92a8d1);
+  height: 200vh; /* Tinggi elemen latar belakang setara dengan tinggi jendela browser */
+}
+
+.inputForm {
+  margin-top: 10px;
+}
+
+.inputForm .heading {
+  background-color: #fff;
+  text-align: center;
+  color: #000;
+  padding: 8px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 2em;
+  mix-blend-mode: screen;
+  font-family: "Poppins", sans-serif;
+}
+
+.inputForm .form .col {
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.form .col input {
+  border-radius: 20px;
+  border: 2px solid rgb(200, 200, 200);
+  font-family: "Poppins", sans-serif;
+}
+
+.form .col label {
+  margin-left: 10px;
+  margin-bottom: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.form .col button {
+  background-color: #92a8d1;
+  border: none;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  padding: 8px;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  width: 500px;
+  box-shadow: 0 10px 0 #c5b9cd;
+}
+
+.form .col button:active {
+  box-shadow: none;
+  transform: translateY(10px);
+}
+
+.form .col button:hover {
+  background-color: #abb1cf;
+}

@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+body {
+  background: linear-gradient(to bottom right, #f7cac9, #c5b9cd, #92a8d1);
+  height: 100vh; /* Tinggi elemen latar belakang setara dengan tinggi jendela browser */
+}
+
+.row .table{
+    background-color: #fff;
+}

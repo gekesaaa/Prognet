@@ -25,7 +25,7 @@ function validateForm() {
   }
 
   // Validasi Kolom No.Handphone (hanya angka)
-  var noHpInput = document.getElementById("no-hp").value;
+  var noHpInput = document.getElementById("nomor").value;
   if (!/^\d+$/.test(noHpInput)) {
     alert("Kolom No.Handphone hanya bisa menginput angka.");
     return false;
@@ -35,11 +35,11 @@ function validateForm() {
   var nama = document.getElementById("nama").value;
   var nim = document.getElementById("nim").value;
   var status = document.querySelector('input[name="status"]:checked').value;
-  var jenisKelamin = document.getElementById("jenis-kelamin").value;
+  var jenisKelamin = document.querySelector('input[name="gender"]:checked').value;
   var hobi = document.getElementById("hobi").value;
   var email = document.getElementById("email").value;
   var alamat = document.getElementById("alamat").value;
-  var noHp = document.getElementById("no-hp").value;
+  var noHp = document.getElementById("nomor").value;
 
   // Menampilkan data yang diinput
   var output = "Data yang Anda masukkan telah tersimpan\n\n";
